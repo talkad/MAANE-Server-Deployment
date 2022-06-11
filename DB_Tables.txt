@@ -1,0 +1,218 @@
+-- auto-generated definition
+create table "Answers"
+(
+    survey_id     text,
+    school_symbol text,
+    answer        text,
+    answer_type   text
+);
+
+alter table "Answers"
+    owner to postgres;
+
+
+-- auto-generated definition
+create table "Goals"
+(
+    goalid      integer not null
+        constraint goals_pk
+            primary key,
+    title       text,
+    description text,
+    quarterly   integer,
+    weight      integer,
+    workfield   text,
+    goalyear    integer
+);
+
+alter table "Goals"
+    owner to postgres;
+
+
+-- auto-generated definition
+create table "Questions"
+(
+    survey_id text,
+    index     integer,
+    question  text
+);
+
+alter table "Questions"
+    owner to postgres;
+
+
+-- auto-generated definition
+create table "Surveys"
+(
+    id          text not null
+        constraint surveys_pk
+            primary key,
+    title       text not null,
+    description text,
+    year integer,
+    submit boolean
+);
+
+alter table "Surveys"
+    owner to postgres;
+
+
+-- auto-generated definition
+create table "Users"
+(
+    username      text not null
+        constraint users_pk
+            primary key,
+    userstateenum text,
+    workfield     text,
+    firstname     text,
+    lastname      text,
+    email         text,
+    phonenumber   text,
+    city          text,
+    password      text,
+    workday       integer,
+    act1start     time,
+    act1end       time,
+    act2start     time,
+    act2end       time
+);
+
+alter table "Users"
+    owner to postgres;
+
+
+-- auto-generated definition
+create table "UsersSchools"
+(
+    username text
+        constraint usersschools_users__fk
+            references "Users"
+            on delete cascade,
+    school   text,
+    constraint usersschools_pk
+        unique (username, school)
+);
+
+alter table "UsersSchools"
+    owner to postgres;
+
+
+-- auto-generated definition
+create table "UsersSurveys"
+(
+    username text not null
+        constraint userssurveys_users__fk
+            references "Users"
+            on delete cascade,
+    surveyid text not null,
+    constraint userssurveys_pk
+        primary key (username, surveyid)
+);
+
+alter table "UsersSurveys"
+    owner to postgres;
+
+
+-- auto-generated definition
+create table "Rules"
+(
+    survey_id   text,
+    goal_id     integer,
+    type        text,
+    comparison  text,
+    question_id integer,
+    answer      text,
+    parent_id   integer,
+    id          serial not null
+        constraint rules_pk
+            primary key
+);
+
+alter table "Rules"
+    owner to postgres;
+
+
+-- auto-generated definition
+create table "MultiChoices"
+(
+    survey_id      text,
+    question_index integer,
+    answer_type    text,
+    choices        text
+);
+
+alter table "MultiChoices"
+    owner to postgres;
+
+
+-- auto-generated definition
+create table "Appointments"
+(
+    appointor text not null,
+    appointee text not null
+        constraint appointments_users__fk
+            references "Users"
+            on delete cascade,
+    constraint appointments_pk
+        primary key (appointor, appointee)
+);
+
+alter table "Appointments"
+    owner to postgres;
+
+
+-- auto-generated definition
+create table "Schools"
+(
+    symbol          text,
+    name            text,
+    city            text,
+    city_mail       text,
+    address         text,
+    school_address  text,
+    principal       text,
+    manager         text,
+    supervisor      text,
+    phone           text,
+    mail            text,
+    zipcode         integer,
+    education_stage text,
+    education_type  text,
+    supervisor_type text,
+    spector         text,
+    num_of_students integer
+);
+
+alter table "Schools"
+    owner to postgres;
+
+
+-- auto-generated definition
+create table "WorkPlans"
+(
+    username    text      not null
+        constraint workplans_users__fk
+            references "Users"
+            on delete cascade,
+    year        integer   not null,
+    date        timestamp not null,
+    activities  text,
+    endactivity timestamp,
+    constraint workplans_pk
+        primary key (username, date, year)
+);
+
+alter table "WorkPlans"
+    owner to postgres;
+
+
+-- auto-generated definition
+create table "Holidays"
+(
+    title text,
+    date  timestamp
+);
+
+alter table "Holidays"
+    owner to postgres;
