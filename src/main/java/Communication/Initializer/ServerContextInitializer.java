@@ -23,9 +23,9 @@ public class ServerContextInitializer {
 //        this.dbUsername = "pxbghxfm";
 //        this.dbPassword = "ogms2UJpzqjopRw29YcJ5Wau7wHQLkcJ";
 
-        this.dbConnection = "jdbc:postgresql://ec2-54-228-32-29.eu-west-1.compute.amazonaws.com:5432/dddpg4sf4g3pmg";
-        this.dbUsername = "zewqiehdaufwut";
-        this.dbPassword = "09bf3e7925e4568c6f0483fd467da47331296c87ff5deb63d1fac3f6912437df";
+        this.dbConnection = "jdbc:postgresql://ec2-34-248-169-69.eu-west-1.compute.amazonaws.com:5432/da8dvmklj0bgmb";
+        this.dbUsername = "auvnaojmfgkfnc";
+        this.dbPassword = "e4395d530448a0285d0aab4695e2d467ca750c0c0e3b8b4b01cc72954b33ca69";
     }
 
     public void setMockMode() {
