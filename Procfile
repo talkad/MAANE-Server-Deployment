@@ -1,1 +1,0 @@
-web: java -jar maane\maane\target\maane-0.0.1-SNAPSHOT.jar

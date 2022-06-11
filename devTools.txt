@@ -1,9 +1,0 @@
-To execute the server via maven (inside /maane/maane/): 
-mvn spring-boot:run
-
-Create Jar File via maven:
-mvn clean package
-
-Run the Jar from main directory:
-java -jar maane\maane\target\maane-0.0.1-SNAPSHOT.jar
-
