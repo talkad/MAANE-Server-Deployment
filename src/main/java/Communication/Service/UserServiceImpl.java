@@ -36,6 +36,7 @@ public class UserServiceImpl implements UserService, UserDetailsService {
         Response<String> pwdRes;
         Response<User> userRes = UserController.getInstance().getUserRes(username);
 
+
         if(userRes.isFailure()){
             log.error("user not exist");
             throw new UsernameNotFoundException("user not found");
@@ -48,6 +49,8 @@ public class UserServiceImpl implements UserService, UserDetailsService {
         authorities.add(new SimpleGrantedAuthority(userRes.getResult().getState().getStateEnum().getState()));
 
         pwdRes = UserQueries.getInstance().getPassword(username);
+
+        System.out.println("the password is: " + pwdRes);
 
         return new org.springframework.security.core.userdetails.User(username, pwdRes.isFailure()? "" : pwdRes.getResult(), authorities);
     }

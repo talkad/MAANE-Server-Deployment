@@ -37,6 +37,8 @@ public class MaaneApplication {
 	public static void main(String[] args) {
 //		ServerContextInitializer.getInstance().setMockMode();
 
+		System.out.println(KeyLoader.getInstance().getAdminPassword());
+
 		SpringApplication.run(MaaneApplication.class, args);
 	}
 
