@@ -1476,9 +1476,9 @@ public class UserController {
     public Response<Boolean> isValidAnswer(String symbol, String surveyID) {
         Response<String> supervisorRes = userDAO.getSurveyCreator(surveyID);
         if(!supervisorRes.isFailure()){
-            Response<UserDBDTO> userDBDTOResponse = userDAO.getFullUser(supervisorRes.getResult());//todo probably shouldnt pull full user, just work field
-            if (!userDBDTOResponse.isFailure()) {
-                Response<UserDBDTO> coordinatorRes = userDAO.getCoordinator(symbol, userDBDTOResponse.getResult().getWorkField());
+            Response<String> userWorkFieldResponse = userDAO.getUserWorkField(supervisorRes.getResult());
+            if (!userWorkFieldResponse.isFailure()) {
+                Response<UserDBDTO> coordinatorRes = userDAO.getCoordinator(symbol, userWorkFieldResponse.getResult());
                 if(!coordinatorRes.isFailure() && !(coordinatorRes.getResult() == null)){
                     return new Response<>(true, false, coordinatorRes.getErrMsg());
                 }

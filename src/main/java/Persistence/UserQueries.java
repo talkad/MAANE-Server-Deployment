@@ -218,9 +218,9 @@ public class UserQueries {
         return new Vector<>();//todo maybe return null
     }
 
-    public Response<UserDBDTO> getUser(String username) {//todo remove it later potentially
+    public Response<String> getUserWorkField(String username) {
         Connect.createConnection();
-        String sql = "SELECT * FROM \"Users\" WHERE username = ?";
+        String sql = "SELECT workfield FROM \"Users\" WHERE username = ?";
         PreparedStatement statement;
         try {
             statement = Connect.conn.prepareStatement(sql);
@@ -228,17 +228,9 @@ public class UserQueries {
             statement.setString(1, username);
             ResultSet result = statement.executeQuery();
             if(result.next()) {
-                UserDBDTO userDBDTO = new UserDBDTO();
-                userDBDTO.setUsername(result.getString("username"));
-                userDBDTO.setStateEnum(UserStateEnum.valueOf(result.getString("userstateenum")));
-                userDBDTO.setWorkField(result.getString("workField"));
-                userDBDTO.setFirstName(result.getString("firstName"));
-                userDBDTO.setLastName(result.getString("lastName"));
-                userDBDTO.setEmail(result.getString("email"));
-                userDBDTO.setPhoneNumber(result.getString("phoneNumber"));
-                userDBDTO.setCity(result.getString("city"));
+                String workField = result.getString("workfield");
                 Connect.closeConnection();
-                return new Response<>(userDBDTO, false, "successfully acquired user");
+                return new Response<>(workField, false, "successfully acquired user");
             }
             Connect.closeConnection();
         } catch (SQLException throwables) {

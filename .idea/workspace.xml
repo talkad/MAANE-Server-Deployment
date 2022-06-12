@@ -6,7 +6,180 @@
   <component name="ChangeListManager">
     <list default="true" id="45063645-09a6-4145-9702-e4ea2c8dcb10" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Communication/Security/KeyLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Communication/Security/KeyLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Domain/UsersManagment/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/UsersManagment/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Persistence/UserQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persistence/UserQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/ActivityDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/ActivityDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/ActivityManageDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/ActivityManageDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/AnswersDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/AnswersDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/EmptyUserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/EmptyUserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/GoalDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/GoalDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/LoginDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/LoginDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/QuestionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/QuestionDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/RuleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/RuleDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/RuleRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/RuleRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/RulesDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/RulesDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/SchoolManagementDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/SchoolManagementDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyAnswersDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyAnswersDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyDetailsDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyDetailsDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyStatsDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyStatsDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/WorkPlanDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/WorkPlanDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Filter/CustomAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Filter/CustomAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Filter/CustomAuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Filter/CustomAuthorizationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Initializer/ServerContextInitializer$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Initializer/ServerContextInitializer$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Initializer/ServerContextInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Initializer/ServerContextInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/MaaneApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/MaaneApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Mappers/ObjectMapperConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Mappers/ObjectMapperConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Resource/DataController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Resource/DataController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Resource/ReportController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Resource/ReportController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Resource/SessionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Resource/SessionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Resource/SurveyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Resource/SurveyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Resource/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Resource/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Security/JwtAuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Security/JwtAuthenticationEntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Security/KeyLoader$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Security/KeyLoader$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Security/KeyLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Security/KeyLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Security/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Security/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/AnnualScheduleGeneratorServiceImpl$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/AnnualScheduleGeneratorServiceImpl$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/AnnualScheduleGeneratorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/AnnualScheduleGeneratorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/DataServiceImpl$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/DataServiceImpl$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/DataServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/DataServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/Interfaces/AnnualScheduleGeneratorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/Interfaces/AnnualScheduleGeneratorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/Interfaces/DataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/Interfaces/DataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/Interfaces/MonthlyReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/Interfaces/MonthlyReportGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/Interfaces/SurveyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/Interfaces/SurveyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/Interfaces/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/Interfaces/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/MonthlyReportGeneratorImpl$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/MonthlyReportGeneratorImpl$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/MonthlyReportGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/MonthlyReportGeneratorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/SurveyServiceImpl$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/SurveyServiceImpl$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/SurveyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/SurveyServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/SesseionListener/SessionTimeoutListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/SesseionListener/SessionTimeoutListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response$ResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response$ResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response$ResponseBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response$ResponseBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/AnswerState/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/AnswerState/Answer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/AnswerState/AnswerMultipleChoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/AnswerState/AnswerMultipleChoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/AnswerState/AnswerOpen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/AnswerState/AnswerOpen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/AnswerState/AnswerType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/AnswerState/AnswerType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/DataController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/DataController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/DataController$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/DataController$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/DataController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/DataController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/FaultDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/FaultDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/AndRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/AndRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/Comparison.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/Comparison.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/IffRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/IffRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/ImplyRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/ImplyRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/MultipleChoiceBaseRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/MultipleChoiceBaseRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/NumericBaseRule$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/NumericBaseRule$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/NumericBaseRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/NumericBaseRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/OrRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/OrRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/Rule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/Rule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/RuleConverter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/RuleConverter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/RuleConverter$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/RuleConverter$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/RuleConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/RuleConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/RuleType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/RuleType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/Question$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/Question$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/School.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/School.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/Survey$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/Survey$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/Survey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/Survey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/SurveyAnswers$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/SurveyAnswers$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/SurveyAnswers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/SurveyAnswers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/SurveyController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/SurveyController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/SurveyController$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/SurveyController$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/SurveyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/SurveyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/EmailManagement/EmailController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/EmailManagement/EmailController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/EmailManagement/EmailController$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/EmailManagement/EmailController$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/EmailManagement/EmailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/EmailManagement/EmailController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/GuidingBasketsManagement/GuidingBasket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/GuidingBasketsManagement/GuidingBasket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/GuidingBasketsManagement/GuidingBasketDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/GuidingBasketsManagement/GuidingBasketDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/GuidingBasketsManagement/SearchEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/GuidingBasketsManagement/SearchEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/MonthlyReport/MSWordWriterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/MonthlyReport/MSWordWriterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/MonthlyReport/MonthlyReportGenerator$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/MonthlyReport/MonthlyReportGenerator$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/MonthlyReport/MonthlyReportGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/MonthlyReport/MonthlyReportGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/APIs/DTOs/UserActivityInfoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/APIs/DTOs/UserActivityInfoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/APIs/DTOs/UserInfoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/APIs/DTOs/UserInfoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/APIs/UserInfoRetriever.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/APIs/UserInfoRetriever.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/APIs/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/APIs/UserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Coordinator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Coordinator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/GeneralSupervisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/GeneralSupervisor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Guest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Guest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Instructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Instructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Permissions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Permissions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Registered.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Registered.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Supervisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Supervisor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/SystemManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/SystemManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/User$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/User$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserController$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserController$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserStateEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserStateEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/AnnualScheduleGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/AnnualScheduleGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/AnnualScheduleGenerator$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/AnnualScheduleGenerator$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/AnnualScheduleGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/AnnualScheduleGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/Goal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/Goal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/GoalsManagement$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/GoalsManagement$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/GoalsManagement$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/GoalsManagement$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/GoalsManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/GoalsManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/HolidaysHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/HolidaysHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/WorkPlan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/WorkPlan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/Connect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/DBCPDataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/DBCPDataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/DbAdapter/SurveyDAOMockAdapter$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/DbAdapter/SurveyDAOMockAdapter$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/DbAdapter/SurveyDAOMockAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/DbAdapter/SurveyDAOMockAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/DbDtos/SchoolDBDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/DbDtos/SchoolDBDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/DbDtos/UserDBDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/DbDtos/UserDBDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/ExcelFormatter$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/ExcelFormatter$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/ExcelFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/ExcelFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/GoalsQueries$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/GoalsQueries$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/GoalsQueries$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/GoalsQueries$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/GoalsQueries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/GoalsQueries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/HolidaysQueries$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/HolidaysQueries$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/HolidaysQueries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/HolidaysQueries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/SchoolQueries$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/SchoolQueries$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/SchoolQueries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/SchoolQueries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/SurveyDAO$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/SurveyDAO$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/SurveyDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/SurveyDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/SurveyPersistence$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/SurveyPersistence$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/SurveyPersistence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/SurveyPersistence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/UserQueries$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/UserQueries$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/UserQueries$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/UserQueries$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/UserQueries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/UserQueries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/WorkPlanQueries$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/WorkPlanQueries$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/WorkPlanQueries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/WorkPlanQueries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maane-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/maane-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maane-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/maane-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AcceptanceTesting/Bridge/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AcceptanceTesting/Bridge/ProxyBridgeData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AcceptanceTesting/Bridge/ProxyBridgeSchedule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AcceptanceTesting/Bridge/ProxyBridgeSurvey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AcceptanceTesting/Bridge/ProxyBridgeUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AcceptanceTesting/Tests/AcceptanceTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AcceptanceTesting/Tests/DataManagementTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AcceptanceTesting/Tests/SupervisorTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AcceptanceTesting/Tests/UserManagementTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IntegrationTesting/FaultDetectionTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IntegrationTesting/SurveyIntegrationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IntegrationTesting/UserIntegrationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTesting/DataBase/RuleDbTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTesting/DataBase/SurveyDbTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTesting/DataManagement/DataControllerTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTesting/DataManagement/FaultDetectorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTesting/DataManagement/SurveyControllerTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTesting/DataManagement/SurveyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTesting/GuidingBaskets/GuidingBasketTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTesting/GuidingBaskets/SearchEngineTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTesting/UserManagement/UserControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTesting/UserManagement/WorkPlanTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTesting/WorkPlan/AnnualScheduleGeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTesting/WorkPlan/HolidaysHandlerTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +209,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MAANE/maane" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Maane-Client-Deployment" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -60,7 +233,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655014078929</updated>
-      <workItem from="1655014080190" duration="6265000" />
+      <workItem from="1655014080190" duration="6353000" />
+      <workItem from="1655021627924" duration="17000" />
+      <workItem from="1655024451681" duration="15000" />
+      <workItem from="1655025939591" duration="1503000" />
     </task>
     <servers />
   </component>
