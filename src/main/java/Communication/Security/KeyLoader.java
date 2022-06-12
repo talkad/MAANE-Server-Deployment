@@ -37,7 +37,7 @@ public class KeyLoader {
 //        filepath = "C:\\Users\\User\\Desktop\\UpdatedMaane\\MAANE\\maane\\maane\\src\\main\\resources\\store.keystore";
 //        filepath = "maane\\src\\main\\resources\\store.keystore"; // other's path
 
-        filepath = System.getProperty("user.dir") + "\\src\\main\\resources\\store.keystore";
+        filepath = System.getProperty("user.dir") + "/src/main/resources/store.keystore";
 
         encryptedText = "354132168465432";
     }
