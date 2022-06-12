@@ -7,6 +7,8 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.temporal.ChronoUnit;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.TreeMap;
 import java.util.Vector;
@@ -152,7 +154,14 @@ public class WorkPlan {
         LocalDate startDate = LocalDate.of(year, 9, 1);
         LocalDate endDate = LocalDate.of(year + 1, 6, 21);
 
-        List<LocalDate> localDates = startDate.datesUntil(endDate).collect(Collectors.toList());
+//        List<LocalDate> localDates = startDate.datesUntil(endDate).collect(Collectors.toList());
+        List<LocalDate> localDates = new LinkedList<>();
+        long daysBetween = ChronoUnit.DAYS.between(startDate, endDate);
+
+        for(int i = 0; i <= daysBetween; i++){
+            localDates.add(startDate.plusDays(i));
+        }
+
         List<LocalDateTime> localDateTimes = new Vector<>();
         for (LocalDate localDate : localDates) {
             localDateTimes.add(localDate.atTime(this.act1Start));
