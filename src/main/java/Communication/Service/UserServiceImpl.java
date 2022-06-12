@@ -50,8 +50,6 @@ public class UserServiceImpl implements UserService, UserDetailsService {
 
         pwdRes = UserQueries.getInstance().getPassword(username);
 
-        System.out.println("the password is: " + pwdRes);
-
         return new org.springframework.security.core.userdetails.User(username, pwdRes.isFailure()? "" : pwdRes.getResult(), authorities);
     }
 

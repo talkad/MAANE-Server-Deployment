@@ -37,8 +37,6 @@ public class MaaneApplication {
 	public static void main(String[] args) {
 //		ServerContextInitializer.getInstance().setMockMode();
 
-		System.out.println(KeyLoader.getInstance().getAdminPassword());
-
 		SpringApplication.run(MaaneApplication.class, args);
 	}
 
@@ -155,6 +153,8 @@ public class MaaneApplication {
 			}
 			else {
 				System.out.println("The server is running!");
+				UserController.getInstance();
+
 //				UserQueries.getInstance().clearDB();
 //				DataController.getInstance().loadSchoolsToDB();
 			}
