@@ -5,6 +5,7 @@ import Domain.CommonClasses.Response;
 import Domain.DataManagement.AnswerState.AnswerType;
 import Domain.DataManagement.SurveyAnswers;
 
+import java.util.Arrays;
 import java.util.List;
 
 import static Domain.DataManagement.AnswerState.AnswerType.NUMERIC_ANSWER;
@@ -51,7 +52,7 @@ public class NumericBaseRule implements Rule{
 
     @Override
     public List<Integer> getQuestionIndex() {
-        return List.of(questionID);
+        return Arrays.asList(questionID);
     }
 
     @Override
@@ -59,7 +60,7 @@ public class NumericBaseRule implements Rule{
         RuleDTO dto = new RuleDTO();
         dto.setQuestionID(questionID);
         dto.setComparison(comparison);
-        dto.setAnswers(List.of(num));
+        dto.setAnswers(Arrays.asList(num));
         dto.setType(NUMERIC);
         dto.setSubRules(null);
 

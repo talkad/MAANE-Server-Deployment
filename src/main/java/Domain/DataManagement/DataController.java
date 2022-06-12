@@ -162,7 +162,7 @@ public class DataController {
         GoalsManagement.getInstance().addGoalToField("tech", goalDTO2, 2022);
 
         Rule rule1 = new AndRule(Arrays.asList(new NumericBaseRule(2, Comparison.EQUAL, 40),
-                new MultipleChoiceBaseRule(3, List.of(1))));
+                new MultipleChoiceBaseRule(3, Arrays.asList(1))));
 
         Rule rule2 = new NumericBaseRule(2, Comparison.EQUAL, 30);
 

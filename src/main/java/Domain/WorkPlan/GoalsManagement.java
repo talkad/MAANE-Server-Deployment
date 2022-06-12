@@ -5,6 +5,7 @@ import Communication.DTOs.GoalDTO;
 import Domain.CommonClasses.Response;
 import Persistence.GoalsQueries;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Vector;
 
@@ -59,7 +60,7 @@ public class GoalsManagement {
 
     public Response<Goal> getGoalTById(int goalID){
         List<Goal> goalsList;
-        Response<List<GoalDTO>> goalDTOListRes = goalsDAO.getGoalsById(List.of(goalID));
+        Response<List<GoalDTO>> goalDTOListRes = goalsDAO.getGoalsById(Arrays.asList(goalID));
 
         if(!goalDTOListRes.isFailure()){
             goalsList = goalsDTOToGoals(goalDTOListRes.getResult());

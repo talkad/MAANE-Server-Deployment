@@ -6,11 +6,78 @@
   <component name="ChangeListManager">
     <list default="true" id="45063645-09a6-4145-9702-e4ea2c8dcb10" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Communication/MaaneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Communication/MaaneApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/WorkPlan/WorkPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/WorkPlan/WorkPlan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Communication/MaaneApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/MaaneApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/DataManagement/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/DataManagement/DataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/DataManagement/FaultDetector/Rules/MultipleChoiceBaseRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/DataManagement/FaultDetector/Rules/MultipleChoiceBaseRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/DataManagement/FaultDetector/Rules/NumericBaseRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/DataManagement/FaultDetector/Rules/NumericBaseRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/WorkPlan/GoalsManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/WorkPlan/GoalsManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Persistence/DbAdapter/SurveyDAOMockAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persistence/DbAdapter/SurveyDAOMockAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Persistence/GoalsQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persistence/GoalsQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Persistence/SurveyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persistence/SurveyDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AcceptanceTesting/Bridge/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AcceptanceTesting/Bridge/ProxyBridgeData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AcceptanceTesting/Bridge/ProxyBridgeSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AcceptanceTesting/Bridge/ProxyBridgeSurvey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AcceptanceTesting/Bridge/ProxyBridgeUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AcceptanceTesting/Tests/AcceptanceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AcceptanceTesting/Tests/DataManagementTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AcceptanceTesting/Tests/SupervisorTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AcceptanceTesting/Tests/UserManagementTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IntegrationTesting/FaultDetectionTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IntegrationTesting/GuidingBasketIntegrationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IntegrationTesting/SurveyIntegrationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IntegrationTesting/UserIntegrationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTesting/DataBase/RuleDbTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTesting/DataBase/SurveyDbTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTesting/DataManagement/DataControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTesting/DataManagement/FaultDetectorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTesting/DataManagement/SurveyControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTesting/DataManagement/SurveyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTesting/GuidingBaskets/GuidingBasketTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTesting/GuidingBaskets/SearchEngineTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTesting/UserManagement/UserControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTesting/UserManagement/WorkPlanTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTesting/WorkPlan/AnnualScheduleGeneratorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTesting/WorkPlan/HolidaysHandlerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/ActivityDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/ActivityDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/ActivityManageDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/ActivityManageDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/AnswersDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/AnswersDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/EmptyUserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/EmptyUserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/GoalDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/GoalDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/LoginDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/LoginDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/QuestionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/QuestionDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/RuleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/RuleDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/RuleRequestDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/RuleRequestDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/RulesDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/RulesDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/SchoolManagementDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/SchoolManagementDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyAnswersDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyAnswersDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyDetailsDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyDetailsDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyStatsDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/SurveyStatsDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/DTOs/WorkPlanDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/DTOs/WorkPlanDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Filter/CustomAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Filter/CustomAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Filter/CustomAuthorizationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Filter/CustomAuthorizationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Initializer/ServerContextInitializer$CreateSafeThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Initializer/ServerContextInitializer$CreateSafeThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Communication/Initializer/ServerContextInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Initializer/ServerContextInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response$ResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response$ResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response$ResponseBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response$ResponseBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/CommonClasses/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/AnswerState/AnswerType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/AnswerState/AnswerType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/Comparison.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/Comparison.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/RuleType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/DataManagement/FaultDetector/Rules/RuleType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Permissions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/Permissions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/User$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/User$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserStateEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/UsersManagment/UserStateEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/Goal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/Goal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/HolidaysHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/HolidaysHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/WorkPlan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Domain/WorkPlan/WorkPlan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Persistence/DbDtos/UserDBDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Persistence/DbDtos/UserDBDTO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +110,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MAANE/maane" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -64,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655014078929</updated>
-      <workItem from="1655014080190" duration="4367000" />
+      <workItem from="1655014080190" duration="4891000" />
     </task>
     <servers />
   </component>

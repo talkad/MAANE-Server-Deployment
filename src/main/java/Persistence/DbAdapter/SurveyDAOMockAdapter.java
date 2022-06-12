@@ -35,9 +35,9 @@ public class SurveyDAOMockAdapter {
 
     public List<Pair<RuleDTO, Integer>> getRules(String surveyID) {
         return  Arrays.asList(
-                new Pair<>(new RuleDTO(null, RuleType.NUMERIC, Comparison.GREATER_THAN, 0, List.of(28)), 0),
-                new Pair<>(new RuleDTO(null, RuleType.MULTIPLE_CHOICE, Comparison.GREATER_THAN, 1, List.of(1)), 1),
-                new Pair<>(new RuleDTO(null, RuleType.MULTIPLE_CHOICE, Comparison.GREATER_THAN, 2, List.of(2)), 2)
+                new Pair<>(new RuleDTO(null, RuleType.NUMERIC, Comparison.GREATER_THAN, 0, Arrays.asList(28)), 0),
+                new Pair<>(new RuleDTO(null, RuleType.MULTIPLE_CHOICE, Comparison.GREATER_THAN, 1, Arrays.asList(1)), 1),
+                new Pair<>(new RuleDTO(null, RuleType.MULTIPLE_CHOICE, Comparison.GREATER_THAN, 2, Arrays.asList(2)), 2)
         );
     }
 

@@ -11,6 +11,7 @@ import Domain.DataManagement.AnswerState.AnswerType;
 import Persistence.DbAdapter.SurveyDAOMockAdapter;
 
 import java.time.LocalDateTime;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -255,7 +256,7 @@ public class SurveyDAO {
             removeAnswersLRU();
 
         if(!answers.containsKey(surveyID)){
-            answers.put(surveyID, new Pair<>(LocalDateTime.now(), List.of(answersDTO)));
+            answers.put(surveyID, new Pair<>(LocalDateTime.now(), Arrays.asList(answersDTO)));
         }
         else{
             answersList = new LinkedList<>(answers.get(surveyID).getSecond());

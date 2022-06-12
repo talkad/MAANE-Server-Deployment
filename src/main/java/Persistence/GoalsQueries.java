@@ -85,7 +85,12 @@ public class GoalsQueries {
 
     public Response<List<GoalDTO>> getGoalsById(List<Integer> goalsIds) {
         Connect.createConnection();
-        String sql = "SELECT * FROM \"Goals\" WHERE goalid IN (" + "?, ".repeat(goalsIds.size());
+        StringBuilder query = new StringBuilder();
+
+        for(int i = 0; i < goalsIds.size(); i++)
+            query.append("?, ");
+
+        String sql = "SELECT * FROM \"Goals\" WHERE goalid IN (" + query;
         sql = sql.substring(0, sql.length() - 2) + ")";
 
         PreparedStatement statement;
