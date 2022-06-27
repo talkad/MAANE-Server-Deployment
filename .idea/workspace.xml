@@ -7,8 +7,6 @@
     <list default="true" id="45063645-09a6-4145-9702-e4ea2c8dcb10" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Communication/MaaneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Communication/MaaneApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Communication/Service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Communication/Service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Communication/MaaneApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/MaaneApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Communication/Service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Communication/Service/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maane-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/maane-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maane-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/maane-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
@@ -38,10 +36,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MAANE/maane" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Maane-Client-Deployment" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -68,7 +70,8 @@
       <workItem from="1655014080190" duration="6353000" />
       <workItem from="1655021627924" duration="17000" />
       <workItem from="1655024451681" duration="15000" />
-      <workItem from="1655025939591" duration="4371000" />
+      <workItem from="1655025939591" duration="5760000" />
+      <workItem from="1656321235427" duration="983000" />
     </task>
     <servers />
   </component>

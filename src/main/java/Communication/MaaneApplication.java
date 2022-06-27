@@ -155,8 +155,8 @@ public class MaaneApplication {
 				System.out.println("The server is running!");
 				UserController.getInstance();
 
-//				UserQueries.getInstance().clearDB();
-//				DataController.getInstance().loadSchoolsToDB();
+				UserQueries.getInstance().clearDB();
+				DataController.getInstance().loadSchoolsToDB();
 			}
 		};
 	}

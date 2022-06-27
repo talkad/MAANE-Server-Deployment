@@ -951,7 +951,7 @@ public class UserController {
             User user = connectedUsers.get(username);
             Response<String> response = user.publishSurvey();
             if(!response.isFailure()){
-                emailController.sendEmail(response.getResult(), "https://maane-server.herokuapp.com/survey/getSurvey?surveyID=" + surveyToken);
+                emailController.sendEmail(response.getResult(), "https://maane-client.herokuapp.com/survey/getSurvey?surveyID=" + surveyToken);
             }
         }
 /*        else {
